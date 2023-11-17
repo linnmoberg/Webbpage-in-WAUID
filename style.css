@@ -1,0 +1,176 @@
+ 
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.linn-img {
+    height: 600px;  
+    width: 400px;
+    float: left;
+  }
+
+.my-name {
+    text-align: center;
+    color: darkgreen;
+    font-size: 60px;
+}
+
+.about-me {
+    text-align: center;
+    color: darkgreen;
+    font-size: 17px;
+}
+
+.my-work {
+    text-align: center;
+    color: darkgreen;
+}
+
+.mywork-description {
+    text-align: center;
+    color: darkgreen;
+}
+
+.contact-link {
+    text-align: right;
+    color: white;
+    
+}
+
+.mywork-link {
+    text-align: center;
+}
+
+.contactinfo {
+    text-align: right;
+    color: darkgreen;
+}
+
+CONTACT PAGE
+
+.contact-page {
+    display: flex;
+    font-size: 60px;
+    color: rgb(6, 56, 109);
+}
+
+.contact-info {
+    text-align: center;
+    color: white;
+    font-size: 18px; 
+}
+
+.Socials {
+    text-align: center;
+    color: rgb(6, 56, 109);
+
+}
+
+.medier {
+    text-align: center;
+    color: white; 
+}
+
+.instagram
+{
+    color: white;
+}
+
+.snapchat {
+    color: white;
+}
+
+.tiktok {
+    color: white;
+}
+
+/* .allt-contact {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    } */
+    
+    .contact-here {
+        color: rgb(6, 56, 109);
+    }
+    
+    .first-name {
+        color: rgb(6, 56,109); 
+        display: flex 
+        
+    }
+    
+    .last-name {
+        display: flex;
+    }
+    
+    .email {
+        display: flex;
+    }
+
+    .html{
+        background-color: cornflowerblue;
+    }
+
+    MY WORK PAGE
+
+    .färg {
+        background-color: lightcoral;
+    }
+
+    .mywork-h1 {
+        text-align: center;
+        color: white;
+        font-size: 60px;
+    }
+
+.background {
+    color: seagreen;
+}
+
+.flowers {
+    display: grid;
+    height: 400px;    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 100px;
+    margin-top: 40px; 
+    column-gap: 10%;  
+
+}
+
+.imglink {
+    display: grid;
+    height: 400px;
+}
+
+FLOWER PIC
+
+.background-color {
+    background-color: black;
+}
+
+.flower-h {
+    text-align: center; 
+    color: coral;
+}
+
+.description {
+    text-align: center; 
+    color: coral;
+}
+
+.flower-picture {
+    width: 400px;
+    margin-left: 500px; 
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
