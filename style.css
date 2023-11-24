@@ -40,7 +40,31 @@
 
 .mywork-link {
     text-align: center;
+    animation: textGrow 0.3 ease forwards;
 }
+
+@keyframes textGrow {
+    from {
+        font-size: 16px;
+    }
+    to {
+        font-size: 24px;
+    }
+}
+
+.mywork-link:hover {
+    animation: textGrowHover 0.3s ease forwards;
+}
+
+@keyframes textGrowHover {
+    from {
+        font-size: 16px;
+    }
+    to {
+        font-size: 24px;
+    }
+}
+
 
 .contactinfo {
     text-align: right;
@@ -152,6 +176,7 @@ FLOWER PIC
 
 .background-color {
     background-color: black;
+    
 }
 
 .flower-h {
@@ -174,3 +199,4 @@ FLOWER PIC
         grid-template-columns: 1fr 1fr;
     }
 }
+
